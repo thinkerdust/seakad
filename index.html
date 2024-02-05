@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Seakad">
+    <meta name="description" content="Seakad">
+    <meta name="theme-color" content="#B57F32"/>
+
+    <title>Seakad</title>
+
+    <link rel="shortcut icon" href="/assets/images/logo.png">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/assets/images/logo.png" alt="Seakad" width="50" height="44">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Katalog Pricelist</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input type="search" placeholder="Cari disini" aria-describedby="button-search" class="form-control rounded-pill" id="form-search">
+                <button id="button-search" type="submit" class="btn"><i class="fas fa-search text-gold"></i></button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/assets/images/carousel-1.png" class="d-block w-100" alt="images">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/images/carousel-1.png" class="d-block w-100" alt="images">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/images/carousel-1.png" class="d-block w-100" alt="images">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row" id="sectionCounter">
+        <div class="col-md-4 text-center">
+          <div class="number-counter">100 <i class="fas fa-plus"></i> </div>
+          <div class="title-counter">Total Order</div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="number-counter">100 <i class="fas fa-plus"></i> </div>
+          <div class="title-counter">Tema Undangan</div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="number-counter">100 <i class="fas fa-plus"></i> </div>
+          <div class="title-counter">Total Pengunjung</div>
+        </div>
+      </div>
+
+      <div id="sectionGreeting">
+        <div id="greetingTitle">Buat undangan pernikahan bersama kami</div>
+
+        <div id="greetingContainer">
+          <div class="row">
+            <div class="col-md-8 col-sm-12 col-12" id="greetingContainerLeft">
+              <div id="greetingSubtitle">Selamat datang <span id="greetingSubtitle-Gold">di Seakad</span></div>
+              <div id="greetingContainerSubtitle">
+                Website dengan jasa pembuatan undangan online pernikahan
+              </div>
+              <div id="greetingContainerText">
+                Pesan undangan dengan design elegan  yang anda impikan selama ini, tidak lupa dengan harga promo yang bisa didapatkan.
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-12" id="greetingContainerRight">
+              <swiper-container id="swiperGreeting" pagination="true" pagination-clickable="true" slides-per-view="auto" centered-slides="true" space-between="30">
+                <swiper-slide><img src="/assets/images/gallery-1.png" alt="Photo Gallery"></swiper-slide>
+                <swiper-slide><img src="/assets/images/gallery-2.png" alt="Photo Gallery"></swiper-slide>
+                <swiper-slide><img src="/assets/images/gallery-3.png" alt="Photo Gallery"></swiper-slide>
+                <swiper-slide><img src="/assets/images/gallery-4.png" alt="Photo Gallery"></swiper-slide>
+                <swiper-slide><img src="/assets/images/gallery-5.png" alt="Photo Gallery"></swiper-slide>
+                <swiper-slide><img src="/assets/images/gallery-6.png" alt="Photo Gallery"></swiper-slide>
+              </swiper-container>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="sectionWhy">
+        <div class="col-md-5 col-sm-12 col-12">
+          <div id="sectionWhyGallery">
+            <img src="/assets/images/gallery-6.png" class="img-fluid" alt="Photo Gallery">
+          </div>
+        </div>
+        <div class="col-md-7 col-sm-12 col-12">
+          <div id="sectionWhyContainer">
+            <div id="sectionWhyTitle">Mengapa anda harus memilih SEAKAD?</div>
+            <div id="sectionWhySubtitle">Beberapa keuntungan yang bisa anda dapatkan</div>
+            <div id="sectionWhyContent">
+              <div class="why-card">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2 col-2">
+                    <div class="why-card-content-number">01</div>
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-8">
+                    <div class="why-card-content-title">Mudah, cepat & murah</div>
+                    <div class="why-card-content">Gak perlu nunggu lama untuk membuat undangan pernikahan, kamu bisa bikin undangan online dengan harga termurah.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="why-card">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2 col-2">
+                    <div class="why-card-content-number">02</div>
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-8">
+                    <div class="why-card-content-title">Custom domain undangan</div>
+                    <div class="why-card-content">Mudah membuat alamat URL unik untuk website undangan kamu dengan menggunakan kata-kata sesuai dengan keinginan.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="why-card">
+                <div class="row">
+                  <div class="col-md-2 col-sm-2 col-2">
+                    <div class="why-card-content-number">03</div>
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-8">
+                    <div class="why-card-content-title">Aman & Terpercaya</div>
+                    <div class="why-card-content">Kami melindungi informasi pribadi kamu, serta full support untuk segala hal yang kamu perlukan.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="sectionFitur">
+        <div class="col-md-4 col-sm-12 col-12">
+          <div id="fiturTitle">Daftar Fitur Seakad</div>
+        </div>
+        <div class="col-md-8 col-sm-12 col-12">
+          <div class="row" id="sectionFiturContent">
+            <div class="col-md-4 col-sm-4 col-4">
+              <div class="fiturContentTitle">Tema menarik & Ekslusif</div>
+              <div class="fiturContent">Kamu dapat menyesuaikan tema pernikahan kamu dengan pilihan tema unik dan elegan yang telah kami sediakan.</div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4">
+              <div class="fiturContentTitle">Story</div>
+              <div class="fiturContent">Kamu bisa bercerita bagaimana awal kalian bisa bertemu hingga melanjutkan ke jenjang pernikahan.</div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4">
+              <div class="fiturContentTitle">Waktu Akad & Resepsi</div>
+              <div class="fiturContent">Kamu dapat memberikan Informasi penting dalam pesta pernikahan, yaitu waktu dan lokasi resepsi.</div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4">
+              <div class="fiturContentTitle">Informasi Pasangan</div>
+              <div class="fiturContent">Kamu dapat menginformasikan tentang diri kamu dan pasangan yang kamu cintai disertai dengan foto kamu dan pasangan kamu.</div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4">
+              <div class="fiturContentTitle">Gallery Pra Wedding</div>
+              <div class="fiturContent">Kalian bisa upload foto foto pra wedding untuk ditampilkan ke dalam undangan pernikahan digital.</div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4">
+              <div class="fiturContentTitle">Buku Tamu</div>
+              <div class="fiturContent">Di fitur ini bisa kamu gunakan sebagai pengganti buku untuk mencatat kehadiran tamu serta foto selfi tamu yang hadir.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="sectionKatalog">
+        <div id="katalogTitle">Katalog Tema Undangan</div>
+        <div id="katalogSubtitle">Design Elegan</div>
+        <div id="katalogGallery">
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/assets/images/gallery-7.png" class="card-img-top" alt="Photo Katalog">
+                <div class="card-body">
+                  <h5 class="card-title">E-Wonderland Wedding</h5>
+                  <p class="card-text">
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6 col-6">
+                        <button class="btn btn-gold">Preview</button>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-6">
+                        <button class="btn btn-gold">Pesan</button>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/assets/images/gallery-7.png" class="card-img-top" alt="Photo Katalog">
+                <div class="card-body">
+                  <h5 class="card-title">E-Wonderland Wedding</h5>
+                  <p class="card-text">
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6 col-6">
+                        <button class="btn btn-gold">Preview</button>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-6">
+                        <button class="btn btn-gold">Pesan</button>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/assets/images/gallery-7.png" class="card-img-top" alt="Photo Katalog">
+                <div class="card-body">
+                  <h5 class="card-title">E-Wonderland Wedding</h5>
+                  <p class="card-text">
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6 col-6">
+                        <button class="btn btn-gold">Preview</button>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-6">
+                        <button class="btn btn-gold">Pesan</button>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/assets/images/gallery-7.png" class="card-img-top" alt="Photo Katalog">
+                <div class="card-body">
+                  <h5 class="card-title">E-Wonderland Wedding</h5>
+                  <p class="card-text">
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6 col-6">
+                        <button class="btn btn-gold">Preview</button>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-6">
+                        <button class="btn btn-gold">Pesan</button>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="/assets/vendor/jquery/jquery-3.7.1.min.js"></script>
+    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </body>
+</html>
